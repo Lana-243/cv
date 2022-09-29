@@ -1,134 +1,181 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <title>Orbit - Bootstrap 5 Resume/CV Template for Developers</title>
+    
+    <!-- Meta -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Responsive HTML5 Resume/CV Template for Developers">
+    <meta name="author" content="Xiaoying Riley at 3rd Wave Media">    
+    <link rel="shortcut icon" href="favicon.ico">  
+    <!-- Google Font -->
+    <link href='https://fonts.googleapis.com/css?family=Roboto:400,500,400italic,300italic,300,500italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
+    <!-- FontAwesome JS-->
+	<script defer src="assets/fontawesome/js/all.min.js"></script>
+    <!-- Global CSS -->
+    <link rel="stylesheet" href="assets/plugins/bootstrap/css/bootstrap.min.css">   
+    <!-- Theme CSS -->  
+    <link id="theme-style" rel="stylesheet" href="assets/css/orbit-1.css">
+</head> 
 
-  <!-- Basic Page Needs
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <meta charset="utf-8">
-  <title>CV Isupova Svetlana</title>
-  <meta name="description" content="">
-  <meta name="author" content="">
-
-  <!-- Mobile Specific Metas
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-
-  <!-- FONT
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <link href="//fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet" type="text/css">
-
-  <!-- CSS
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <link rel="stylesheet" href="css/normalize.css">
-  <link rel="stylesheet" href="css/skeleton.css">
-  <link rel="stylesheet" href="css/stylesheet.css">
-
-  <!-- Favicon
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <link rel="icon" type="image/png" href="images/favicon.png">
-
-</head>
 <body>
-  <div class="container" style="margin-top: 5%; margin-bottom: 5%">
-    <div class="container" style="margin-bottom:40px;">
-      <div class="row">
-        <img class="five columns portrait" src="images/portrait.jpeg" alt="portrait">
-        <div class="seven columns heading-title">
-          <h1>Светлана Исупова</h1>
-          <h2>Разработчик Ruby on Rails</h2>
-        </div>
-      </div>
-    </div>
-    <div class="container" style="text-align: center">
-      <div class="row">
-        <p class="three columns">
-          Телефон:
-          <a href="tel:+7 985 270 14 28">+7 985 270 14 28</a>
-        </p>
-        <p class="three columns">
-          E-Mail:
-          <a href="mailto:svetaisupova@gmail.com">svetaisupova@gmail.com</a>
-        </p>
-        <p class="three columns">
-          GitHub:
-          <a href="https://github.com/Lana-243">https://github.com/Lana-243</a>
-        </p>
-      </div>
-    </div>
-    <div class="container">
-      <h4>Навыки</h4>
-      <div class="row">
-        <ul class="six columns">
-          <li>Ruby</li>
-          <li>Ruby on Rails</li>
-          <li>Командная строка, консоль разработчика</li>
-          <li>ООП, MVC, REST</li>
-          <li>Работа с Git, GitHub</li>
-          <li>Среда разработки RubyMine</li>
-          <li>Heroku</li>
-        </ul>
-        <ul class="six columns">
-          <li>Rspec, дебаггер, обработка ошибок и исключений</li>
-          <li>Devise, Activemailer</li>
-          <li>HTML, CSS, XML, JSON, Bootstrap</li>
-          <li>PostgreSQL, SQLite</li>
-          <li>Культура программирования (постановка задачи, code style, рефакторинг)
-          </li>
-        </ul>
-      </div>
-    </div>
-    <div class="container">
-      <h4>Опыт</h4>
-      <h5>Компания АО 3М Россия</h5>
+    <div class="wrapper mt-lg-5">
+        <div class="sidebar-wrapper">
+            <div class="profile-container">
+                <img class="profile" src="assets/images/profile.jpeg" style="border-radius: 100px" width="150px" alt="" />
+                <h1 class="name">Светлана Исупова</h1>
+                <h3 class="tagline">Разработчик Ruby on Rails</h3>
+            </div><!--//profile-container-->
+            
+            <div class="contact-container container-block">
+                <ul class="list-unstyled contact-list">
+                    <li class="email"><i class="fa-solid fa-envelope"></i><a href="mailto: svetaisupova@gmail.com">svetaisupova@gmail.com</a></li>
+                    <li class="phone"><i class="fa-solid fa-phone"></i><a href="+7(985)270-14-28">+7(985)270-14-28</a></li>
+                    <li class="telegram"><i class="fa-brands fa-telegram"></i><a href="https://t.me/svetlana_243" target="_blank">t.me/svetlana_243</a></li>
+                    <li class="github"><i class="fa-brands fa-github"></i><a href="https://github.com/Lana-243" target="_blank">github.com/Lana-243</a></li>
+                </ul>
+            </div><!--//contact-container-->
+            <div class="education-container container-block">
+                <h2 class="container-block-title">Образование</h2>
+                <div class="item">
+                    <h4 class="degree">Курс онлайн-интенсив по Ruby on Rails</h4>
+                    <h5 class="meta">Good Programmer <br> <a href="https://goodprogrammer.ru/">https://goodprogrammer.ru/</a></h5>
+	                    <div class="time">2022</div>
+                </div><!--//item-->
+                <div class="item">
+                    <h4 class="degree">Профессиональная разработка на Ruby on Rails</h4>
+                    <h5 class="meta">Thinknetika <br> <a href="https://goodprogrammer.ru/">thinknetica.com</a></h5>
+                    <div class="time">2021</div>
+                </div><!--//item-->
+                <div class="item">
+                    <h4 class="degree">Бакалавр Международных Экономических Отношений</h4>
+                    <h5 class="meta">МГИМО(У)</h5>
+                    <div class="time">2017</div>
+                </div><!--//item-->
+            </div><!--//education-container-->
+            
+            <div class="languages-container container-block">
+                <h2 class="container-block-title">Языки</h2>
+                <ul class="list-unstyled interests-list">
+                    <li>Английский <span class="lang-desc">(C1)</span></li>
+                    <li>Французский <span class="lang-desc">(B2)</span></li>
+                </ul>
+            </div><!--//interests-->
+        </div><!--//sidebar-wrapper-->
+        
+        <div class="main-wrapper">
+            
+            <section class="section summary-section">
+                <h2 class="section-title"><span class="icon-holder"><i class="fa-solid fa-gears"></i></span>Навыки</h2>
+                <div class="summary">
+                    <ul>
+                        <li>Ruby</li>
+                        <li>Ruby on Rails</li>
+                        <li>Командная строка, консоль разработчика</li>
+                        <li>ООП, MVC, REST</li>
+                        <li>Работа с Git, GitHub</li>
+                        <li>Среда разработки RubyMine</li>
+                        <li>Heroku</li>
+                        <li>Rspec, дебаггер, обработка ошибок и исключений</li>
+                        <li>Devise, Activemailer</li>
+                        <li>HTML, CSS, XML, JSON, Bootstrap</li>
+                        <li>PostgreSQL, SQLite</li>
+                        <li>Культура программирования (постановка задачи, code style, рефакторинг)
+                        </li>
+                    </ul>
+                </div><!--//summary-->
+            </section><!--//section-->
+            
+            <section class="section experiences-section">
+                <h2 class="section-title"><span class="icon-holder"><i class="fa-solid fa-briefcase"></i></span>Опыт</h2>
+                
+                <div class="item">
+                    <div class="meta">
+                        <div class="upper-row">
+                            <h3 class="job-title">Координатор по поддержке клиентских операций</h3>
+                            <div class="time">02/2022 – 06/2022</div>
+                        </div><!--//upper-row-->
+                        <div class="company">Компания АО 3М Россия</div>
+                    </div><!--//meta-->
+                    <div class="details">
+                        <ul>
+                            <li>Управление данными материалов, клиентов, поставщиков в SAP</li>
+                            <li>Создание и выгрузка отчетов по материалам, клиентам, SQL, Power Automate, Power BI</li>
+                            <li>Автоматизация выгрузки отчетов, процессов (получила экономию в 0,3 FTE) с использованием Excel, VBA</li>
+                            <li>Поддержка центра по размещению заказов, коммуникация с разработчиками</li>
+                            <li>Управление данными системы по одобрению цен</li>
+                            <li>Техническая поддержка Service Automation, Salesforce</li>
+                            <li>Проведение обучающих сессий для сотрудников</li>
+                            <li>Создание процессов по взаимодействию между департаментами, новых шаблонов для передачи данных</li>
+                        </ul>
+                    </div><!--//details-->
+                </div><!--//item-->
+                
+                <div class="item">
+                    <div class="meta">
+                        <div class="upper-row">
+                            <h3 class="job-title">Представитель по управлению данными <br>и электронными решениями</h3>
+                            <div class="time">07/2020 – 02/2022</div>
+                        </div><!--//upper-row-->
+                        <div class="company">Компания АО 3М Россия</div>
+                    </div><!--//meta-->
+                </div><!--//item-->
 
-      <table>
-        <tr>
-          <td>02/2022 – 06/2022</td>
-          <td>
-            Координатор по поддержке клиентских операций
-            <ul>
-              <li>Управление данными материалов, клиентов, поставщиков в SAP</li>
-              <li>Создание и выгрузка отчетов по материалам, клиентам, SQL, Power Automate, Power BI</li>
-              <li>Автоматизация выгрузки отчетов, процессов (получила экономию в 0,3 FTE) с использованием Excel, VBA</li>
-              <li>Поддержка центра по размещению заказов, коммуникация с разработчиками</li>
-              <li>Управление данными системы по одобрению цен</li>
-              <li>Техническая поддержка Service Automation, Salesforce</li>
-              <li>Проведение обучающих сессий для сотрудников</li>
-              <li>Создание процессов по взаимодействию между департаментами, новых шаблонов для передачи данных</li>
-            </ul>
-          </td>
-        </tr>
-        <tr>
-          <td>07/2020 – 02/2022</td>
-          <td>Представитель по управлению данными и электронными решениями</td>
-        </tr>
-        <tr>
-          <td>09/2018 – 07/2020</td>
-          <td>Ассистент по управлению данными</td>
-        </tr>
-        <tr>
-          <td>09/2017 – 09/2018</td>
-          <td>Ассистент документооборота</td>
-        </tr>
-        <tr>
-          <td>07/2017 – 08/2017</td>
-          <td>Стажер отдела маркетинга</td>
-        </tr>
-      </table>
+                <div class="item">
+                    <div class="meta">
+                        <div class="upper-row">
+                            <h3 class="job-title">Ассистент по управлению данными<br>и электронными решениями</h3>
+                            <div class="time">09/2018 – 07/2020</div>
+                        </div><!--//upper-row-->
+                        <div class="company">Компания АО 3М Россия</div>
+                    </div><!--//meta-->
+                </div><!--//item-->
+
+                <div class="item">
+                    <div class="meta">
+                        <div class="upper-row">
+                            <h3 class="job-title">Ассистент документооборота</h3>
+                            <div class="time">09/2017 – 09/2018</div>
+                        </div><!--//upper-row-->
+                        <div class="company">Компания АО 3М Россия</div>
+                    </div><!--//meta-->
+                </div><!--//item-->
+
+                
+            </section><!--//section-->
+            
+            <section class="section projects-section">
+                <h2 class="section-title"><span class="icon-holder"><i class="fa-solid fa-archive"></i></span>Проекты</h2>
+                <div class="item">
+                    <span class="project-title"><a href="https://github.com/Lana-243/bbq/" target="_blank">BBQ</a></span> - <span class="project-tagline">Учебное приложение для создания событий. Вы можете размещать информацию о мероприятии, а ваши друзья подписываются на него</span>
+
+                </div><!--//item-->
+                <div class="item">
+                    <span class="project-title"><a href="https://github.com/Lana-243/askme" target="_blank">AskMe</a></span> - <span class="project-tagline"> Приложение - клон AskFm, где вы можете задавать вопросы другим пользователям и отвечать на заданные вам вопросы</span>
+                </div><!--//item-->
+                <div class="item">
+                    <span class="project-title"><a href="https://github.com/Lana-243/black_jack" target="_blank">Black Jack</a></span> - <span class="project-tagline">Консольная игра Black Jack. Карточная игра против дилера, где вам надо набрать определенное количество очков</span>
+                </div><!--//item-->
+                <div class="item">
+                    <span class="project-title"><a href="https://github.com/Lana-243/hangman" target="_blank">Hangman</a></span> - <span class="project-tagline">Текстовая игра 'Виселица'. Программа загадывает слово, вы пробуете его отгадать</span>
+                </div><!--//item-->
+
+            </section><!--//section-->
+
+            </section><!--//skills-section-->
+            
+        </div><!--//main-body-->
     </div>
-    <div class="container">
-      <h4>Образование</h4>
-      <div>[2017]</div>
-      <h5>Бакалавр Международных Экономических Отношений</h5>
-      <div>МГИМО(У), Московский государственный институт международных отношений Министерства иностранных
-        дел Российской Федерации, Москва</div><br>
-    </div>
-    <div class="container">
-      <h4>Повышение квалификации, курсы</h4>
-      <div>[2022]</div>
-      <h5>Курс онлайн-интенсив по Ruby on Rails</h5>
-      <div>Good Programmer <a href="https://goodprogrammer.ru/">https://goodprogrammer.ru/</a></div>
-    </div>
-  </div>
+ 
+    <footer class="footer">
+        <div class="text-center">
+            <!--/* This template is free as long as you keep the footer attribution link. If you'd like to use the template without the attribution link, you can buy the commercial license via our website: themes.3rdwavemedia.com Thank you for your support. :) */-->
+            <small class="copyright">Designed with <i class="fa-solid fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank">Xiaoying Riley</a> for developers</small>
+        </div><!--//container-->
+    </footer><!--//footer-->
+        
 </body>
-</html>
+</html> 
+
